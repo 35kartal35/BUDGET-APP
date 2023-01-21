@@ -1,0 +1,41 @@
+{
+    "expense":[
+        {
+            "id":"1",
+            "price":"600",
+            "place": "A101",
+            "date": "19.01.2023",
+            "title":"haftalık market",
+            "description": "yağ bile alamadık",
+            "categoryId":"1"
+        },
+        {
+            "id":"2",
+            "price":"6000",
+            "place": "Teknosa",
+            "date": "19.01.2023",
+            "title":"HP computer",
+            "description": "yağ bile alamadık",
+            "categoryId":"2"
+        }
+    ],
+
+    "categories":[
+        {
+            "id":"1",
+            "name":"Market"
+        },
+        {
+            "id":"2",
+            "name":"Giysi"
+        },
+        {
+            "id":"3",
+            "name":"Eğitim"
+        },
+        {
+            "id":"4",
+            "name":"Elektronik"
+        }
+    ]
+}
