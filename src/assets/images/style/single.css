@@ -1,0 +1,21 @@
+.singleListContainer{
+    background-color: aqua;
+    font-size: 20px;
+}
+
+
+.singleListWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: red;
+    font-style:italic;
+}
