@@ -1,13 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import '../assets/images/style/single.css'
 
-const SingleList=({expens})=>{
+
+const SingleList=({expense})=>{
     return(
         <div className="singleListContainer">
             <h1 className="singleListWrapper">
-                {expens.title}</h1>
-                <p className="price">{expens.description}</p>
-                <p className="price">{expens.price}</p>
+                {expense.title}</h1>
+               <h3> <p className="price">{expense.description}</p></h3>
+                <h2><p className="price">{expense.price}</p></h2>
         </div>
     )
 }
